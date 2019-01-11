@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "murano_homework", "murano_homework\murano_homework.csproj", "{E8115FAB-89F1-42C1-877B-CFF1212EA2F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "murano_homework.Tests", "murano_homework.Tests\murano_homework.Tests.csproj", "{71BA1CF7-CEE5-40DA-A10A-DF68FA8FEFF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8115FAB-89F1-42C1-877B-CFF1212EA2F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8115FAB-89F1-42C1-877B-CFF1212EA2F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8115FAB-89F1-42C1-877B-CFF1212EA2F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8115FAB-89F1-42C1-877B-CFF1212EA2F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71BA1CF7-CEE5-40DA-A10A-DF68FA8FEFF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71BA1CF7-CEE5-40DA-A10A-DF68FA8FEFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71BA1CF7-CEE5-40DA-A10A-DF68FA8FEFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71BA1CF7-CEE5-40DA-A10A-DF68FA8FEFF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92FBDA26-6938-493A-95DF-CB60ECF53571}
+	EndGlobalSection
+EndGlobal
