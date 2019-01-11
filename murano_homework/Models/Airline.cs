@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace murano_homework.Models
+namespace RouteFinder.Models
 {
     public class Airline
     {

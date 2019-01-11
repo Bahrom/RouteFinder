@@ -1,4 +1,4 @@
-﻿using murano_homework.Models;
+﻿using RouteFinder.Models;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace murano_homework.Core
+namespace RouteFinder.Core
 {
     public class RouteSearcher
     {

@@ -1,5 +1,5 @@
-﻿using murano_homework.Core;
-using murano_homework.Models;
+﻿using RouteFinder.Core;
+using RouteFinder.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-namespace murano_homework.Controllers
+namespace RouteFinder.Controllers
 {
     public class RouteController : ApiController
     {

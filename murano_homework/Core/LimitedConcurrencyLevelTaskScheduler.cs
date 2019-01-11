@@ -5,7 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace murano_homework.Core
+namespace RouteFinder.Core
 {
     // Provides a task scheduler that ensures a maximum concurrency level while 
     // running on top of the thread pool.

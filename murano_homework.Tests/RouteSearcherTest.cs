@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using murano_homework.Core;
+using RouteFinder.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Routing;
 
-namespace murano_homework.Tests
+namespace RouteFinder.Tests
 {
     [TestClass]
    public class RouteSearcherTest

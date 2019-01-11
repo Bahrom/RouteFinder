@@ -75,9 +75,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\murano_homework\murano_homework.csproj">
+    <ProjectReference Include="..\murano_homework\RouteFinder.csproj">
       <Project>{E8115FAB-89F1-42C1-877B-CFF1212EA2F6}</Project>
-      <Name>murano_homework</Name>
+      <Name>RouteFinder</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

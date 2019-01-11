@@ -1,12 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using murano_homework.Controllers;
+using RouteFinder.Controllers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace murano_homework.Tests.Controllers
+namespace RouteFinder.Tests.Controllers
 {
     [TestClass]
    public class RouteControllerTest

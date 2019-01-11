@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace murano_homework.Core
+namespace RouteFinder.Core
 {
     /// <summary>
     /// Result type for SearchRoute method
