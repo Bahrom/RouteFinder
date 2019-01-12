@@ -37,13 +37,32 @@ namespace RouteFinder.Tests
         }
 
         [TestMethod]
-        public void SearchRoute()
+        public void SearchFirstRoute()
         {
             RouteSearcher route_searcher = new RouteSearcher(System.Threading.CancellationToken.None, 10);
             route_searcher.SearchRoute("AER", "CEE", SearchResultType.FirstOne);
-            route_searcher.SearchRoute("AER", "CEE", SearchResultType.AllPossibleRoutes);
+
+        }
+
+        [TestMethod]
+        public void SearchShortesRoute()
+        {
+            RouteSearcher route_searcher = new RouteSearcher(System.Threading.CancellationToken.None, 10);
             route_searcher.SearchRoute("AER", "CEE", SearchResultType.ShortestOne);
-            route_searcher.SearchRoute("None", "None", SearchResultType.FirstOne);
+        }
+
+        [TestMethod]
+        public void SearchAllRoutes()
+        {
+            RouteSearcher route_searcher = new RouteSearcher(System.Threading.CancellationToken.None, 10);
+            route_searcher.SearchRoute("AER", "CEE", SearchResultType.AllPossibleRoutes);
+        }
+
+        [TestMethod]
+        public void SearchNoneExistRoute()
+        {
+            RouteSearcher route_searcher = new RouteSearcher(System.Threading.CancellationToken.None, 10);
+            route_searcher.SearchRoute("AER", "None", SearchResultType.AllPossibleRoutes);
         }
 
     }

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteFinder", "murano_homework\RouteFinder.csproj", "{E8115FAB-89F1-42C1-877B-CFF1212EA2F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteFinder", "RouteFinder\RouteFinder.csproj", "{E8115FAB-89F1-42C1-877B-CFF1212EA2F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteFinder.Tests", "murano_homework.Tests\RouteFinder.Tests.csproj", "{71BA1CF7-CEE5-40DA-A10A-DF68FA8FEFF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteFinder.Tests", "RouteFinder.Tests\RouteFinder.Tests.csproj", "{71BA1CF7-CEE5-40DA-A10A-DF68FA8FEFF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
