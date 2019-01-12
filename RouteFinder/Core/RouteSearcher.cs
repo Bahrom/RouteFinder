@@ -175,6 +175,9 @@ namespace RouteFinder.Core
                         if (found_routes.Count > 0)
                             return;
 
+                    if (errors.Count > 0) // Is tehere any error?
+                        return;
+
                     Interlocked.Increment(ref count); // New task adding
 
                     factory.StartNew(async () => // Task started
